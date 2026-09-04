@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { reader } from './reader';
-// @ts-expect-error Next.js loads this stylesheet at runtime.
 import './styles.css';
 
 export default async function Homepage() {
